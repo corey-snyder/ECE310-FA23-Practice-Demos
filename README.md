@@ -7,3 +7,6 @@ This notebook gives an easy interface to try different choices of impulse respon
 
 ## Spectral analysis
 This notebook allows students to easily create signals of a known lengths with any number of spectral components. The provided code allows you to select the frequencies and amplitudes of each spectral component and observe the resulting DFTs. The use of zero-padding and window functions are also included to see how the resulting spectra change and spectral components may be identified.
+
+## Window method
+This notebook provides implementations of low-pass, high-pass, band-pass, and band-stop FIR filters via window method design. Each filter is implemented via operations applied to a corresponding low-pass filter. For example, applying modulation to a low-pass filter to yield a band-pass filter.
